@@ -1,7 +1,7 @@
 import turtle
-from walker05 import Walker
+from walker052 import Walker
 
-walker = Walker()
+walker = Walker(-400, 0)
 
 turtle.penup()
 turtle.hideturtle()
@@ -9,4 +9,4 @@ turtle.hideturtle()
 while True:
     walker.step()
     turtle.goto(walker.getX(), walker.getY())
-    turtle.dot(5, "blue")
+    turtle.dot(3, "blue")

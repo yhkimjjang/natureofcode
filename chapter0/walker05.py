@@ -9,7 +9,7 @@ class Walker:
     def step(self):
         # stepSize = random.uniform(0, 16)
         stepSize = self._montecarlo()
-        print(stepSize)
+        # print(stepSize)
 
         stepX = random.uniform(-stepSize, stepSize)
         stepY = random.uniform(-stepSize, stepSize)
